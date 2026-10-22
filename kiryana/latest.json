@@ -1,1 +1,1 @@
-{"versionCode":106,"versionName":"11.42","b64File":"Saelvo-v11.42.apk.b64","apkFileName":"Saelvo-v11.42.apk","notes":"Master details fixed: the button now lives inside the month dialog and opens the full comparison page for that exact month. The tab-bottom button was removed."}
+{"versionCode":107,"versionName":"11.43","b64File":"Saelvo-v11.43.apk.b64","apkFileName":"Saelvo-v11.43.apk","notes":"Master details now shows Pakistani events with dates (event days wear a premium violet bar and tag), best day of each week, plus the existing highest and lowest days."}
