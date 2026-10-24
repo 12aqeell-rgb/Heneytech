@@ -1,1 +1,1 @@
-{"versionCode":109,"versionName":"11.45","b64File":"Saelvo-v11.45.apk.b64","apkFileName":"Saelvo-v11.45.apk","notes":"Reports Monthly layout swapped: the Daily sales card now sits right under the hero, and Key stats moved below it."}
+{"versionCode":110,"versionName":"11.46","b64File":"Saelvo-v11.46.apk.b64","apkFileName":"Saelvo-v11.46.apk","notes":"Light haptic tick on taps: bottom nav, segmented control, arrows, rows and buttons now give a subtle vibration (no new permission; respects system haptic setting)."}
