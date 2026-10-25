@@ -1,1 +1,1 @@
-{"versionCode":110,"versionName":"11.46","b64File":"Saelvo-v11.46.apk.b64","apkFileName":"Saelvo-v11.46.apk","notes":"Light haptic tick on taps: bottom nav, segmented control, arrows, rows and buttons now give a subtle vibration (no new permission; respects system haptic setting)."}
+{"versionCode":111,"versionName":"11.47","b64File":"Saelvo-v11.47.apk.b64","apkFileName":"Saelvo-v11.47.apk","notes":"Tap haptics softened one step (lighter CONTEXT_CLICK tick on all nav/button taps)."}
