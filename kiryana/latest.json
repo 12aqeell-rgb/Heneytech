@@ -1,1 +1,1 @@
-{"versionCode":119,"versionName":"11.55","b64File":"Saelvo-v11.55.apk.b64","apkFileName":"Saelvo-v11.55.apk","notes":"Detail-view alignment fix: RECEIVED/GIVEN row + Remind + Share Statement now share the cards' side margins instead of sticking out past them."}
+{"versionCode":120,"versionName":"11.56","b64File":"Saelvo-v11.56.apk.b64","apkFileName":"Saelvo-v11.56.apk","notes":"Udhar main page now N3C without the left edge: one gradient summary strip, gradient filter chips, compact customer cards, gradient Collect. Detail view stays 3A; other tabs untouched."}
