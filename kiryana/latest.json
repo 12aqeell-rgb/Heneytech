@@ -1,1 +1,1 @@
-{"versionCode":125,"versionName":"11.61","b64File":"Saelvo-v11.61.apk.b64","apkFileName":"Saelvo-v11.61.apk","notes":"Fix blank Udhar detail view: detail root restructured to RelativeLayout (no weight-based ScrollView sizing)."}
+{"versionCode":126,"versionName":"11.62","b64File":"Saelvo-v11.62.apk.b64","apkFileName":"Saelvo-v11.62.apk","notes":"Fix blank Udhar detail view: ScrollView is now the detail root itself (bar + body scroll together); no nested scroll container."}
