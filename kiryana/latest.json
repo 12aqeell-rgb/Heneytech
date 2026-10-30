@@ -1,1 +1,1 @@
-{"versionCode":127,"versionName":"11.63","b64File":"Saelvo-v11.63.apk.b64","apkFileName":"Saelvo-v11.63.apk","notes":"Fix Udhar sync 401: pushUdhar was called with token/id swapped, so the sheet id went as the Bearer token."}
+{"versionCode":128,"versionName":"11.64","b64File":"Saelvo-v11.64.apk.b64","apkFileName":"Saelvo-v11.64.apk","notes":"More tab is now Settings + Data (Export/Share, Backup & Restore); shortcuts, brand header, Sync row and Updates card removed. Sync stays reachable from Home; updates still auto-check on launch."}
