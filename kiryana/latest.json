@@ -1,1 +1,1 @@
-{"versionCode":126,"versionName":"11.62","b64File":"Saelvo-v11.62.apk.b64","apkFileName":"Saelvo-v11.62.apk","notes":"Fix blank Udhar detail view: ScrollView is now the detail root itself (bar + body scroll together); no nested scroll container."}
+{"versionCode":127,"versionName":"11.63","b64File":"Saelvo-v11.63.apk.b64","apkFileName":"Saelvo-v11.63.apk","notes":"Fix Udhar sync 401: pushUdhar was called with token/id swapped, so the sheet id went as the Bearer token."}
