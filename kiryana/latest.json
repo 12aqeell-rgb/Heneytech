@@ -1,1 +1,1 @@
-{"versionCode":134,"versionName":"11.70","b64File":"Saelvo-v11.70.apk.b64","apkFileName":"Saelvo-v11.70.apk","notes":"Launcher icon composition fixed: coin symbol now centered in the tile (was sitting low); applied to launcher, round and header icons."}
+{"versionCode":135,"versionName":"11.71","b64File":"Saelvo-v11.71.apk.b64","apkFileName":"Saelvo-v11.71.apk","notes":"Weekly audit High fixes: restore no longer overwrites unsynced local edits (dirty rows kept and still sync); Yesterday label no longer crashes on slash date format (built from ISO key)."}
