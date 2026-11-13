@@ -1,1 +1,7 @@
-{"apkFileName": "Saelvo-v12.13.apk", "b64File": "Saelvo-v12.13.apk.b64", "notes": "Emerald Teal spec, phases 3 + 4 (v12.13, includes v12.12 theme + Home which was never pushed): bottom nav is now 4 tabs \u2014 Home, Sales, Udhar, More (Records renamed Sales; Reports moved into Sales as a Reports card opening the charts subscreen). Shop name setting: Settings \u2192 Business \u2192 Shop Name, used on invoices, statements and the payment QR (default Qasim Kiryana Store). JSON backup: Backup & Restore has Export JSON (readable .json with all tables + settings for reference) and Import JSON (merges via the same restore guards as the .db restore; settings are not changed on import). Reports: month bar chart was already there (Daily sales, swipeable); weekday averages moved from Home into Reports as a flat-teal Weekday averages card (ranked, with peak day) under the chart. All v12.08\u2013v12.12 audit fixes kept.", "versionCode": 177, "versionName": "12.13"}
+{
+  "apkFileName": "Saelvo-v12.14.apk",
+  "b64File": "Saelvo-v12.14.apk.b64",
+  "notes": "Saelvo 12.14: undo of the Emerald Teal update (v12.12+v12.13) \u2014 old look restored: dark-first theme with gradients, aurora hero + equity chart Home, 5-tab nav (Home/Records/Udhar/Reports/More), weekday averages back on Home. Shop Name setting and JSON backup kept (functional, not look).",
+  "versionCode": 178,
+  "versionName": "12.14"
+}
