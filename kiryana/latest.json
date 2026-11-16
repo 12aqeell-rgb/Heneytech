@@ -1,1 +1,7 @@
-{"apkFileName":"Saelvo-v12.16.apk","b64File":"Saelvo-v12.16.apk.b64","notes":"Saelvo 12.16: self-healing sync — every sync now checks the sheet and re-sends any day missing on the sheet, and only marks entries synced after verifying the value actually landed; 'Sync successful' can no longer appear while the sheet is empty.","versionCode":180,"versionName":"12.16"}
+{
+  "apkFileName": "Saelvo-v12.17.apk",
+  "b64File": "Saelvo-v12.17.apk.b64",
+  "versionCode": 181,
+  "versionName": "12.17",
+  "notes": "Weekly audit batch 1 (H1, H2, M1, M2, M3): Forgot PIN only resets for the linked Google account; JSON import fallback for Android 9 and older; duplicate contact check on create; supplier list rebuilds after Pay; profit/target dialogs reject NaN/Infinity."
+}
