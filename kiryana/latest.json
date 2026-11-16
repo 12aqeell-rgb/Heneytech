@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.28.apk",
-  "b64File": "Saelvo-v12.28.apk.b64",
-  "versionCode": 192,
-  "versionName": "12.28",
-  "notes": "Weekly audit batch 10 (U-L30-U-L32, D-L1-D-L2): removed the unused MonoSparkView chart; charts no longer collapse to zero width; the loading skeleton now fits short views; a NaN value from the sheet is treated as 0 instead of poisoning sales and sync checks; the Dashboard Lowest Sale Month now skips empty months."
+  "apkFileName": "Saelvo-v12.29.apk",
+  "b64File": "Saelvo-v12.29.apk.b64",
+  "versionCode": 193,
+  "versionName": "12.29",
+  "notes": "Weekly audit batch 11 (D-L3-D-L7): a bad sale no longer blocks the full-history sheet backfill; a bad Udhar amount no longer blocks the Udhar tab sync; the sync now also heals one older month per run, not just the last two; signing in with a different Google account can no longer show the old account; a stray local probe can no longer break the sign-in."
 }
