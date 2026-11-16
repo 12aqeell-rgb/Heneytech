@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.21.apk",
-  "b64File": "Saelvo-v12.21.apk.b64",
-  "versionCode": 185,
-  "versionName": "12.21",
-  "notes": "Removed the Business Overview, Cash Flow and Real Profit (P&L) cards from the Reports tab on the user's order. The Cash Book, Udhar and supplier data behind them is untouched."
+  "apkFileName": "Saelvo-v12.22.apk",
+  "b64File": "Saelvo-v12.22.apk.b64",
+  "versionCode": 186,
+  "versionName": "12.22",
+  "notes": "Udhar tab background is now plain: white in light mode, black in dark mode. The pale mint-green page tint is gone from the Udhar list, detail, entry, More and aging views."
 }
