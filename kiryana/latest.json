@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.27.apk",
-  "b64File": "Saelvo-v12.27.apk.b64",
-  "versionCode": 191,
-  "versionName": "12.27",
-  "notes": "Weekly audit batch 9 (U-L25-U-L29): after a Settings change the app opens Settings before drawing the tab, so the More page no longer flashes, and the scroll position is kept; the update dialog never appears over the start page; the loading shimmer animation stops when hidden; a chart with no peak bar stops its glow animation; bad numbers can no longer draw blank or garbled charts."
+  "apkFileName": "Saelvo-v12.28.apk",
+  "b64File": "Saelvo-v12.28.apk.b64",
+  "versionCode": 192,
+  "versionName": "12.28",
+  "notes": "Weekly audit batch 10 (U-L30-U-L32, D-L1-D-L2): removed the unused MonoSparkView chart; charts no longer collapse to zero width; the loading skeleton now fits short views; a NaN value from the sheet is treated as 0 instead of poisoning sales and sync checks; the Dashboard Lowest Sale Month now skips empty months."
 }
