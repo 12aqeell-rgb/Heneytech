@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.31.apk",
-  "b64File": "Saelvo-v12.31.apk.b64",
-  "versionCode": 195,
-  "versionName": "12.31",
-  "notes": "Weekly audit batch 13 (D-L13-D-L17): bad JSON backup rows are now counted and reported, and integer ids are stored as long; the update downloader no longer leaks its stream on a read error; a missing update confirmation now tells the user and falls back to the classic installer, which re-verifies the APK first; two concurrent restores can no longer mix up their skipped-row counts; the dead duplicate stream-copy helper is removed."
+  "apkFileName": "Saelvo-v12.32.apk",
+  "b64File": "Saelvo-v12.32.apk.b64",
+  "versionCode": 196,
+  "versionName": "12.32",
+  "notes": "Weekly audit batch 14 (D-L18-D-L22): the update file provider now serves APKs only; the monthly target and shop name settings use named constants; the per-install script key can no longer be generated twice by concurrent callers; update verification now hashes every signing certificate, not just the first; the three ledger update methods no longer crash on a null date."
 }
