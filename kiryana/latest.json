@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.17.apk",
-  "b64File": "Saelvo-v12.17.apk.b64",
-  "versionCode": 181,
-  "versionName": "12.17",
-  "notes": "Weekly audit batch 1 (H1, H2, M1, M2, M3): Forgot PIN only resets for the linked Google account; JSON import fallback for Android 9 and older; duplicate contact check on create; supplier list rebuilds after Pay; profit/target dialogs reject NaN/Infinity."
+  "apkFileName": "Saelvo-v12.18.apk",
+  "b64File": "Saelvo-v12.18.apk.b64",
+  "versionCode": 182,
+  "versionName": "12.18",
+  "notes": "Weekly audit batch 2 (M4-M8): CrashActivity circuit-breaker (no crash-loop brick); restore keeps the synced_sale marker; rename refuses an existing target name; sheet import continues past a failing month tab; JSON import reads UTF-8 without splitting multi-byte characters."
 }
