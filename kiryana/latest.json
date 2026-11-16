@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.29.apk",
-  "b64File": "Saelvo-v12.29.apk.b64",
-  "versionCode": 193,
-  "versionName": "12.29",
-  "notes": "Weekly audit batch 11 (D-L3-D-L7): a bad sale no longer blocks the full-history sheet backfill; a bad Udhar amount no longer blocks the Udhar tab sync; the sync now also heals one older month per run, not just the last two; signing in with a different Google account can no longer show the old account; a stray local probe can no longer break the sign-in."
+  "apkFileName": "Saelvo-v12.30.apk",
+  "b64File": "Saelvo-v12.30.apk.b64",
+  "versionCode": 194,
+  "versionName": "12.30",
+  "notes": "Weekly audit batch 12 (D-L8-D-L12): sign-in can no longer get stuck saying 'already in progress'; the sheet's Day column can no longer overwrite the correct weekday on import; the sync now checks the pushed sale did not land on the wrong date row before marking it clean; the JSON export no longer leaks its stream on a failed write; a backup restore now runs inside one database transaction, so a crash mid-restore leaves nothing half-merged."
 }
