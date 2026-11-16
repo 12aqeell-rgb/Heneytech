@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.23.apk",
-  "b64File": "Saelvo-v12.23.apk.b64",
-  "versionCode": 187,
-  "versionName": "12.23",
-  "notes": "Weekly audit batch 5 (U-L5-U-L9): keypad calculator caps the amount at 1e12 and says 'Amount too large' instead of blaming divide-by-zero on overflow; settled balance renders plain text, not amber; rename refuses a name that has ledger rows but no contact row; deleting a supplier or invoice now rebuilds the list; dead Udhar-mode FAB branches removed and the view tag is used only for the unsaved-draft check."
+  "apkFileName": "Saelvo-v12.24.apk",
+  "b64File": "Saelvo-v12.24.apk.b64",
+  "versionCode": 188,
+  "versionName": "12.24",
+  "notes": "Weekly audit batch 6 (U-L10-U-L14): failed exports no longer leave a partial file; PDF documents always close even when writing fails; payment number must be a valid Pakistani mobile (10-11 digits) before saving; Cash Book keeps the All/In/Out filter after add, edit or delete. U-L12 (rotation losing dialog input) was already fixed by the v12.08 configChanges setting — verified in the built app, no change needed."
 }
