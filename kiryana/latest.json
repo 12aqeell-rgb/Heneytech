@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.26.apk",
-  "b64File": "Saelvo-v12.26.apk.b64",
-  "versionCode": 190,
-  "versionName": "12.26",
-  "notes": "Weekly audit batch 8 (U-L20-U-L24): Forgot-PIN sign-in guarded against a dead lock screen and the lock closes itself if the PIN is already gone; the start-page Google button re-enables after 60s if sign-in stalls; silent notification channels are named distinctly; the morning dues scan fetches all balances in one query instead of one per contact; Auto Backup no longer copies the file holding the PIN hash and Google tokens (sales and Udhar data still back up)."
+  "apkFileName": "Saelvo-v12.27.apk",
+  "b64File": "Saelvo-v12.27.apk.b64",
+  "versionCode": 191,
+  "versionName": "12.27",
+  "notes": "Weekly audit batch 9 (U-L25-U-L29): after a Settings change the app opens Settings before drawing the tab, so the More page no longer flashes, and the scroll position is kept; the update dialog never appears over the start page; the loading shimmer animation stops when hidden; a chart with no peak bar stops its glow animation; bad numbers can no longer draw blank or garbled charts."
 }
