@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.25.apk",
-  "b64File": "Saelvo-v12.25.apk.b64",
-  "versionCode": 189,
-  "versionName": "12.25",
-  "notes": "Weekly audit batch 7 (U-L15-U-L19): sync and export callbacks stop touching a dead screen; crash handler installs once per process and keeps only the app context; a handled error no longer marks a crash for the next launch; a refresh asked for while paused no longer re-renders the tab twice; a file picker lost to process death now says so instead of failing silently."
+  "apkFileName": "Saelvo-v12.26.apk",
+  "b64File": "Saelvo-v12.26.apk.b64",
+  "versionCode": 190,
+  "versionName": "12.26",
+  "notes": "Weekly audit batch 8 (U-L20-U-L24): Forgot-PIN sign-in guarded against a dead lock screen and the lock closes itself if the PIN is already gone; the start-page Google button re-enables after 60s if sign-in stalls; silent notification channels are named distinctly; the morning dues scan fetches all balances in one query instead of one per contact; Auto Backup no longer copies the file holding the PIN hash and Google tokens (sales and Udhar data still back up)."
 }
