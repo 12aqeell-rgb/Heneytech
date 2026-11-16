@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.35.apk",
-  "b64File": "Saelvo-v12.35.apk.b64",
-  "versionCode": 199,
-  "versionName": "12.35",
-  "notes": "Teal Glass detail page (user's pick): the customer detail is restyled — flat teal-tinted balance card with the label on top, a bright teal COLLECT pill, one quiet teal family for the four action circles instead of rainbow, the no-phone hint as a pill, and the full name no longer truncates. RECEIVED / GIVEN is now a segmented bar docked at the very bottom, where the Home bar was; the mode's Home / More bar hides while a detail page is open and returns when you go back."
+  "apkFileName": "Saelvo-v12.36.apk",
+  "b64File": "Saelvo-v12.36.apk.b64",
+  "notes": "v12.36: Frost Light dialogs everywhere (his pick) — Edit Customer dialog rebuilt (no credit-limit field, stored limit kept), all dialog windows now white cards with teal pill primary buttons, all dialog inputs light, choice-dialog rows light.",
+  "versionCode": 200,
+  "versionName": "12.36"
 }
