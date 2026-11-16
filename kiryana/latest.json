@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.19.apk",
-  "b64File": "Saelvo-v12.19.apk.b64",
-  "versionCode": 183,
-  "versionName": "12.19",
-  "notes": "Weekly audit batch 3 (M9, M10, S-L1, S-L2, S-L3): update downloads stream-decode to disk (no 3x RAM), partial APK deleted on failure; weekday averages count sales days only; month dialog like-for-like cap on both sides; Google-only users delete from the sheet right away."
+  "apkFileName": "Saelvo-v12.20.apk",
+  "b64File": "Saelvo-v12.20.apk.b64",
+  "versionCode": 184,
+  "versionName": "12.20",
+  "notes": "Weekly audit batch 4 (S-L4, U-L1, U-L2, U-L3, U-L4): range filter applies a single picked bound; Settled chip count matches the filter; write actions rebuild only the list (search field kept); export callbacks guard a dead screen; Excel export neutralises formula-injection prefixes."
 }
