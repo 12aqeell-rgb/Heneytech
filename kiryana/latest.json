@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.24.apk",
-  "b64File": "Saelvo-v12.24.apk.b64",
-  "versionCode": 188,
-  "versionName": "12.24",
-  "notes": "Weekly audit batch 6 (U-L10-U-L14): failed exports no longer leave a partial file; PDF documents always close even when writing fails; payment number must be a valid Pakistani mobile (10-11 digits) before saving; Cash Book keeps the All/In/Out filter after add, edit or delete. U-L12 (rotation losing dialog input) was already fixed by the v12.08 configChanges setting — verified in the built app, no change needed."
+  "apkFileName": "Saelvo-v12.25.apk",
+  "b64File": "Saelvo-v12.25.apk.b64",
+  "versionCode": 189,
+  "versionName": "12.25",
+  "notes": "Weekly audit batch 7 (U-L15-U-L19): sync and export callbacks stop touching a dead screen; crash handler installs once per process and keeps only the app context; a handled error no longer marks a crash for the next launch; a refresh asked for while paused no longer re-renders the tab twice; a file picker lost to process death now says so instead of failing silently."
 }
