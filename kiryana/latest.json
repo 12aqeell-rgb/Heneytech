@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.30.apk",
-  "b64File": "Saelvo-v12.30.apk.b64",
-  "versionCode": 194,
-  "versionName": "12.30",
-  "notes": "Weekly audit batch 12 (D-L8-D-L12): sign-in can no longer get stuck saying 'already in progress'; the sheet's Day column can no longer overwrite the correct weekday on import; the sync now checks the pushed sale did not land on the wrong date row before marking it clean; the JSON export no longer leaks its stream on a failed write; a backup restore now runs inside one database transaction, so a crash mid-restore leaves nothing half-merged."
+  "apkFileName": "Saelvo-v12.31.apk",
+  "b64File": "Saelvo-v12.31.apk.b64",
+  "versionCode": 195,
+  "versionName": "12.31",
+  "notes": "Weekly audit batch 13 (D-L13-D-L17): bad JSON backup rows are now counted and reported, and integer ids are stored as long; the update downloader no longer leaks its stream on a read error; a missing update confirmation now tells the user and falls back to the classic installer, which re-verifies the APK first; two concurrent restores can no longer mix up their skipped-row counts; the dead duplicate stream-copy helper is removed."
 }
