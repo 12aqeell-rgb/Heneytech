@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.33.apk",
-  "b64File": "Saelvo-v12.33.apk.b64",
-  "versionCode": 197,
-  "versionName": "12.33",
-  "notes": "Weekly audit batch 15 (D-L23-D-L27): a null sale entry or date can no longer reach the database; the next invoice number now accounts for restored invoices with high numbers; a restore can no longer clobber a newer unsynced sale or leave its sync marker blank; saving a contact or supplier can no longer lose the row if the app crashes mid-save; the supplier cleanup now rescues a phone number from a duplicate before deleting it."
+  "apkFileName": "Saelvo-v12.34.apk",
+  "b64File": "Saelvo-v12.34.apk.b64",
+  "versionCode": 198,
+  "versionName": "12.34",
+  "notes": "Weekly audit batch 16 (D-L28-D-L30): the last-transaction date now shows even when a name differs only by capital letters; paying an invoice with no customer can no longer create a blank-name Udhar entry; a failed invoice-table upgrade now cleans up after itself instead of leaving a stray table. This completes the weekly audit queue (D-L3-D-L30)."
 }
