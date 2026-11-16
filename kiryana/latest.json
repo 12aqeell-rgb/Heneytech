@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.32.apk",
-  "b64File": "Saelvo-v12.32.apk.b64",
-  "versionCode": 196,
-  "versionName": "12.32",
-  "notes": "Weekly audit batch 14 (D-L18-D-L22): the update file provider now serves APKs only; the monthly target and shop name settings use named constants; the per-install script key can no longer be generated twice by concurrent callers; update verification now hashes every signing certificate, not just the first; the three ledger update methods no longer crash on a null date."
+  "apkFileName": "Saelvo-v12.33.apk",
+  "b64File": "Saelvo-v12.33.apk.b64",
+  "versionCode": 197,
+  "versionName": "12.33",
+  "notes": "Weekly audit batch 15 (D-L23-D-L27): a null sale entry or date can no longer reach the database; the next invoice number now accounts for restored invoices with high numbers; a restore can no longer clobber a newer unsynced sale or leave its sync marker blank; saving a contact or supplier can no longer lose the row if the app crashes mid-save; the supplier cleanup now rescues a phone number from a duplicate before deleting it."
 }
