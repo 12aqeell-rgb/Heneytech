@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.20.apk",
-  "b64File": "Saelvo-v12.20.apk.b64",
-  "versionCode": 184,
-  "versionName": "12.20",
-  "notes": "Weekly audit batch 4 (S-L4, U-L1, U-L2, U-L3, U-L4): range filter applies a single picked bound; Settled chip count matches the filter; write actions rebuild only the list (search field kept); export callbacks guard a dead screen; Excel export neutralises formula-injection prefixes."
+  "apkFileName": "Saelvo-v12.21.apk",
+  "b64File": "Saelvo-v12.21.apk.b64",
+  "versionCode": 185,
+  "versionName": "12.21",
+  "notes": "Removed the Business Overview, Cash Flow and Real Profit (P&L) cards from the Reports tab on the user's order. The Cash Book, Udhar and supplier data behind them is untouched."
 }
