@@ -1,7 +1,1 @@
-{
-  "apkFileName": "Saelvo-v12.39.apk",
-  "b64File": "Saelvo-v12.39.apk.b64",
-  "notes": "v12.39: launch fixed — old start-page logo removed; 1.5s opening intro (Coin sting) now plays on EVERY launch via TextureView (visible on screen and in recordings), with a poster frame so there is never a white void, and a hard cut to PIN/Home (no fade/slide of the lockup). No other changes.",
-  "versionCode": 203,
-  "versionName": "12.39"
-}
+{"apkFileName":"Saelvo-v12.40.apk","b64File":"Saelvo-v12.40.apk.b64","notes":"v12.40: crash fix — v12.39 crashed on launch (TextureView doesn't support a background drawable); the background call on the TextureView is removed, white stays on the parent layout and poster only. 1.5s opening intro (Coin sting) still plays on EVERY launch via TextureView (visible on screen and in recordings), with a poster frame and a hard cut to PIN/Home. No other changes.","versionCode":204,"versionName":"12.40"}
