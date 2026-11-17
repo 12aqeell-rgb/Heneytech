@@ -1,1 +1,7 @@
-{"apkFileName":"Saelvo-v12.43.apk","b64File":"Saelvo-v12.43.apk.b64","notes":"v12.43: intro defects fixed — (1) the wordmark no longer jumps ~142px down at the poster-to-video handoff: poster and TextureView now share one explicit letterbox rect (no transform), so the handoff is pixel-identical; (2) no more ~1s blank white after tapping: the system splash background now shows the intro poster itself, and the poster PNG moved to drawable-nodpi so it decodes at its true 1080x1920 instead of 3x upscaled. Transparent system splash icon kept (no teal S). No other changes.","versionCode":207,"versionName":"12.43"}
+{
+  "apkFileName": "Saelvo-v12.44.apk",
+  "b64File": "Saelvo-v12.44.apk.b64",
+  "notes": "v12.44: system splash background reverted to a plain white color \u2014 v12.43 set windowSplashScreenBackground to a drawable layer-list showing the intro poster, but Android 12+ only accepts a color there, so it was ignored and the system fell back to the dark theme background while the white icon background drew a big white rounded square. Transparent system splash icon kept (no teal S). No other changes.",
+  "versionCode": 208,
+  "versionName": "12.44"
+}
