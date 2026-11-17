@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.36.apk",
-  "b64File": "Saelvo-v12.36.apk.b64",
-  "notes": "v12.36: Frost Light dialogs everywhere (his pick) — Edit Customer dialog rebuilt (no credit-limit field, stored limit kept), all dialog windows now white cards with teal pill primary buttons, all dialog inputs light, choice-dialog rows light.",
-  "versionCode": 200,
-  "versionName": "12.36"
+  "apkFileName": "Saelvo-v12.37.apk",
+  "b64File": "Saelvo-v12.37.apk.b64",
+  "notes": "v12.37: 1.5s Saelvo opening intro (Coin sting) on first launch — cursor clicks the 'o', it morphs into the teal coin, underline draws and slogan 'SALES TRACKER FOR YOUR SHOP' snaps in below, then the splash auto-continues to PIN/Main. No other changes.",
+  "versionCode": 201,
+  "versionName": "12.37"
 }
