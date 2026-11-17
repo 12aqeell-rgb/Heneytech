@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.37.apk",
-  "b64File": "Saelvo-v12.37.apk.b64",
-  "notes": "v12.37: 1.5s Saelvo opening intro (Coin sting) on first launch — cursor clicks the 'o', it morphs into the teal coin, underline draws and slogan 'SALES TRACKER FOR YOUR SHOP' snaps in below, then the splash auto-continues to PIN/Main. No other changes.",
-  "versionCode": 201,
-  "versionName": "12.37"
+  "apkFileName": "Saelvo-v12.38.apk",
+  "b64File": "Saelvo-v12.38.apk.b64",
+  "notes": "v12.38: 1.5s Saelvo opening intro (Coin sting) now plays on EVERY launch — cursor clicks the 'o', it morphs into the teal coin, underline draws and slogan 'SALES TRACKER FOR YOUR SHOP' snaps in below, then the splash auto-continues to PIN/Main. v12.37 only played it on first launch. No other changes.",
+  "versionCode": 202,
+  "versionName": "12.38"
 }
