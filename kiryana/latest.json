@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.46.apk",
-  "b64File": "Saelvo-v12.46.apk.b64",
-  "notes": "v12.46: Weekly audit 2026-11-23 Batch 2 (M4-M8) — prevPeriod WEEKLY builds recorded weekdays from sale!=0 rows only; Invoice PDF callbacks lifecycle-guarded; file-picker onResult guarded in Export/Udhar/Invoice saveBytes; Udhar populateList contacts/phones maps keyed lowercase (case drift no longer hides phone/Remind/over-limit/Overdue); SmartProjection month-end weights remaining days by each weekday's recorded-day probability.",
-  "versionCode": 210,
-  "versionName": "12.46"
+  "apkFileName": "Saelvo-v12.47.apk",
+  "b64File": "Saelvo-v12.47.apk.b64",
+  "notes": "v12.47: Weekly audit 2026-11-23 Batch 3 (M9, M10, D1-D3) — PakEvents suppresses built-in lunar events within ±2 days of a feed lunar event of the same holiday (no double Eid); CompareScreen bestDay/week-best/eventRow ignore zero-sale rows; GoogleSync import skips phantom zero-sale rows from junk sheet text (genuine typed 0 still imports); Prefs profitPct/monthlyTarget return defaults on non-finite stored values; GoogleAuth sign-in survives a silent probe's socket read timeout.",
+  "versionCode": 211,
+  "versionName": "12.47"
 }
