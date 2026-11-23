@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.48.apk",
-  "b64File": "Saelvo-v12.48.apk.b64",
-  "notes": "v12.48: Weekly audit 2026-11-23 Batch 4 (D4-D8) — streams/connections closed in finally in GoogleSync.req, GoogleAuth.postForm, ScriptSync.postForm; BackupScreen restore closes picked-file stream and null-checks backup output (no more 'Backup failed: null'); fullPush backfill writes only dates with local entries (sheet-typed sales no longer blanked on retry); restoreInvoices retries after an interrupted restore (header number match keeps the H4 collision guard); onUpgrade v12 invoice renumber runs inside the rebuild transaction.",
-  "versionCode": 212,
-  "versionName": "12.48"
+  "apkFileName": "Saelvo-v12.49.apk",
+  "b64File": "Saelvo-v12.49.apk.b64",
+  "notes": "v12.49: Weekly audit 2026-11-23 Batch 5 (D9-D13) — reconcile rotation advances only after the month's tab read succeeds (a failed read retries next sync instead of skipping that month for a full cycle); JSON export/import now carries ledger_deletes tombstones (deleted rows stay deleted across a JSON round-trip); dead DbHelper.upsertRaw removed (latent NPE, zero callers); update confirm-intent launch failure falls back to the classic installer with a toast instead of stalling silently; Dashboard Highest/Lowest Sale Month show a dash on an all-zero sheet instead of naming the first empty month.",
+  "versionCode": 213,
+  "versionName": "12.49"
 }
