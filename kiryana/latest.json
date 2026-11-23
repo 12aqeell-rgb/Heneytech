@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.45.apk",
-  "b64File": "Saelvo-v12.45.apk.b64",
-  "notes": "v12.45: Weekly audit 2026-11-23 Batch 1 (H1, H2, M1, M2, M3) — supplier create refuses existing name; SmartProjection skips zero-sale rows in all 3 loops; ScriptSync verify skips zero-value sheet dates with no local entry; deleted sale dates tombstoned (no resurrect from old backup, .db + JSON restore); Reports stats capped at today (future-dated entries no longer inflate total/avg/delta).",
-  "versionCode": 209,
-  "versionName": "12.45"
+  "apkFileName": "Saelvo-v12.46.apk",
+  "b64File": "Saelvo-v12.46.apk.b64",
+  "notes": "v12.46: Weekly audit 2026-11-23 Batch 2 (M4-M8) — prevPeriod WEEKLY builds recorded weekdays from sale!=0 rows only; Invoice PDF callbacks lifecycle-guarded; file-picker onResult guarded in Export/Udhar/Invoice saveBytes; Udhar populateList contacts/phones maps keyed lowercase (case drift no longer hides phone/Remind/over-limit/Overdue); SmartProjection month-end weights remaining days by each weekday's recorded-day probability.",
+  "versionCode": 210,
+  "versionName": "12.46"
 }
