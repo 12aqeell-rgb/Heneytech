@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.47.apk",
-  "b64File": "Saelvo-v12.47.apk.b64",
-  "notes": "v12.47: Weekly audit 2026-11-23 Batch 3 (M9, M10, D1-D3) — PakEvents suppresses built-in lunar events within ±2 days of a feed lunar event of the same holiday (no double Eid); CompareScreen bestDay/week-best/eventRow ignore zero-sale rows; GoogleSync import skips phantom zero-sale rows from junk sheet text (genuine typed 0 still imports); Prefs profitPct/monthlyTarget return defaults on non-finite stored values; GoogleAuth sign-in survives a silent probe's socket read timeout.",
-  "versionCode": 211,
-  "versionName": "12.47"
+  "apkFileName": "Saelvo-v12.48.apk",
+  "b64File": "Saelvo-v12.48.apk.b64",
+  "notes": "v12.48: Weekly audit 2026-11-23 Batch 4 (D4-D8) — streams/connections closed in finally in GoogleSync.req, GoogleAuth.postForm, ScriptSync.postForm; BackupScreen restore closes picked-file stream and null-checks backup output (no more 'Backup failed: null'); fullPush backfill writes only dates with local entries (sheet-typed sales no longer blanked on retry); restoreInvoices retries after an interrupted restore (header number match keeps the H4 collision guard); onUpgrade v12 invoice renumber runs inside the rebuild transaction.",
+  "versionCode": 212,
+  "versionName": "12.48"
 }
