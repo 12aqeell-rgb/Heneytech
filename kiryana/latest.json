@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.44.apk",
-  "b64File": "Saelvo-v12.44.apk.b64",
-  "notes": "v12.44: system splash background reverted to a plain white color \u2014 v12.43 set windowSplashScreenBackground to a drawable layer-list showing the intro poster, but Android 12+ only accepts a color there, so it was ignored and the system fell back to the dark theme background while the white icon background drew a big white rounded square. Transparent system splash icon kept (no teal S). No other changes.",
-  "versionCode": 208,
-  "versionName": "12.44"
+  "apkFileName": "Saelvo-v12.45.apk",
+  "b64File": "Saelvo-v12.45.apk.b64",
+  "notes": "v12.45: Weekly audit 2026-11-23 Batch 1 (H1, H2, M1, M2, M3) — supplier create refuses existing name; SmartProjection skips zero-sale rows in all 3 loops; ScriptSync verify skips zero-value sheet dates with no local entry; deleted sale dates tombstoned (no resurrect from old backup, .db + JSON restore); Reports stats capped at today (future-dated entries no longer inflate total/avg/delta).",
+  "versionCode": 209,
+  "versionName": "12.45"
 }
