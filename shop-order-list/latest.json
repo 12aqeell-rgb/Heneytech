@@ -1,1 +1,1 @@
-{"apkFileName": "ShopOrderList-v1.2.apk", "b64File": "ShopOrderList-v1.2.apk.b64", "notes": "In-app updater added — future updates arrive inside the app.", "versionCode": 3, "versionName": "1.2"}
+{"apkFileName": "ShopOrderList-v1.3.apk", "b64File": "ShopOrderList-v1.3.apk.b64", "notes": "Fixed update check — internet permission was missing.", "versionCode": 4, "versionName": "1.3"}
