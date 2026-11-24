@@ -1,1 +1,1 @@
-{"apkFileName":"ShopOrderList-v1.15.apk","b64File":"ShopOrderList-v1.15.apk.b64","notes":"Roadmap step 3 (smarter): order history with one-tap repeat, low-stock marks with filter, backup & restore as one JSON file.","versionCode":16,"versionName":"1.15"}
+{"apkFileName":"ShopOrderList-v1.16.apk","b64File":"ShopOrderList-v1.16.apk.b64","notes":"Updater fix: the auto update check now also runs every time you return to the app (throttled to once per 15 minutes), so updates no longer wait for a kill + reopen.","versionCode":17,"versionName":"1.16"}
