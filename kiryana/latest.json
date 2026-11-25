@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.49.apk",
-  "b64File": "Saelvo-v12.49.apk.b64",
-  "notes": "v12.49: Weekly audit 2026-11-23 Batch 5 (D9-D13) — reconcile rotation advances only after the month's tab read succeeds (a failed read retries next sync instead of skipping that month for a full cycle); JSON export/import now carries ledger_deletes tombstones (deleted rows stay deleted across a JSON round-trip); dead DbHelper.upsertRaw removed (latent NPE, zero callers); update confirm-intent launch failure falls back to the classic installer with a toast instead of stalling silently; Dashboard Highest/Lowest Sale Month show a dash on an all-zero sheet instead of naming the first empty month.",
-  "versionCode": 213,
-  "versionName": "12.49"
+  "apkFileName": "Saelvo-v12.50.apk",
+  "b64File": "Saelvo-v12.50.apk.b64",
+  "notes": "v12.50: Weekly audit 2026-11-23 Batch 6 (S1-S5) — Reports 'Highest Sale' now ignores zero-sale time-only rows (no more 'Highest Sale PKR 0' next to 'Lowest Sale --'); saving an entry after a date change writes the new row before deleting the original (a failed save no longer loses the entry); auto-sync failure toast no longer shows 'Auto-sync failed: null'; week labels use Monday-first ISO rules (no more off-by-one around year boundaries); delete confirmation now says the sheet delete happens when back online when offline.",
+  "versionCode": 214,
+  "versionName": "12.50"
 }
