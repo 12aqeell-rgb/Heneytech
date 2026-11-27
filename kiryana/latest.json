@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.64.apk",
-  "b64File": "Saelvo-v12.64.apk.b64",
-  "notes": "Phase 4 Cards + elevation (H-2), Option B one build: card system 16dp radius, 2dp elevation (4dp hero), colored outline shadows retired (light neutral shadow), frost tint more translucent for a stronger iOS-style blur (WHITE_TINT 0xE0 -> 0xC6), hand-built cards migrated screen by screen. Pills, chips, buttons, inputs and dialog window unchanged.",
-  "versionCode": 228,
-  "versionName": "12.64"
+  "apkFileName": "Saelvo-v12.65.apk",
+  "b64File": "Saelvo-v12.65.apk.b64",
+  "notes": "Phase 5 FAB + navigation + icons (H-3, M-2): one FAB 56dp 16dp squircle, orange fill, maroon ic_add icon in MainActivity and UdharModeScreen (oval text-'+' FAB deleted); one nav bar — 24dp icons, 12sp labels, same token-colored 58x34dp sliding pill on both bars; one icon scale 20/24/44dp only (15 off-scale sites fixed: 22->24, 18->20, 21->20, 26->24, 52->44). Keypad arrow and detail menu glyph unchanged. Buttons, cards, inputs, dialog window unchanged.",
+  "versionCode": 229,
+  "versionName": "12.65"
 }
