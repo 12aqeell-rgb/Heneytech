@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.68.apk",
-  "b64File": "Saelvo-v12.68.apk.b64",
-  "notes": "Design Phase 8 Polish (M-3), LAST phase: light mode simplified to flat cream + white cards — AuroraPageDrawable returns solid CREAM #FEFBF3 in light mode (no washes); Frost gated to dark mode only (plainWhite() helper with same radius + hairline edge in light mode) at all 3 entry points (frostBg, frostBgLazy, frostBgTop) and dialogWindow(); dark cards (hero/balance, darkCard=true) keep the frosted path in both modes, so hero stays maroon and its inner glow goes flat automatically on the flat-cream snapshot. Dark mode byte-identical behaviour (aurora + frost + FrostDrawable intact behind DARK branches). No leftovers from Phases 1-7 found.",
-  "versionCode": 232,
-  "versionName": "12.68"
+  "apkFileName": "Saelvo-v12.69.apk",
+  "b64File": "Saelvo-v12.69.apk.b64",
+  "notes": "Fix Plan Phase 1 — P0 critical batch (v12.69): P0-03 source under git (first commit v12.68, remote pending a source repo on github.com); P0-04 signing password moved out of the workspace (~/.config, 0600); P0-01 dark-mode frost accent remap — DEVIATION from the queue's literal targets (GOLD_D 3.07, RED_TEXT 3.95, #7A5C50 3.69 on #CEC9C9 all miss 4.5:1, verified by recomputation) so darker same-family tokens were used instead, all passing: FROST_AMBER #78350F 5.54:1, FROST_RED #991B1B 5.07:1, FROST_GREEN #14532D 5.56:1, FROST_DIM #5D4037 5.69:1, TEXT_ON_WHITE 9.56:1; P0-02 23 content descriptions added (FAB, back chevrons, pagers, overflow, sync status); P0-05 targetSdk/compileSdk 34->36 (Android 16: edge-to-edge insets handled, predictive back unchanged). P0-06 updater gating DEFERRED by owner choice — updater stays as the distribution channel. Supplier Settled pill 1.61:1 left for P1-14.",
+  "versionCode": 233,
+  "versionName": "12.69"
 }
