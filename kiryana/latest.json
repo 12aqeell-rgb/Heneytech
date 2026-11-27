@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.62.apk",
-  "b64File": "Saelvo-v12.62.apk.b64",
-  "notes": "Phase 2 Readability (Option A): orange text -> #B45309, red text -> #B91C1C, amber text -> #92400E, hints -> #7A5C50, white-on-red/orange small text -> dark text on pale fill, keypad arrow maroon-on-orange. Fills, shades and layout unchanged.",
-  "versionCode": 226,
-  "versionName": "12.62"
+  "apkFileName": "Saelvo-v12.63.apk",
+  "b64File": "Saelvo-v12.63.apk.b64",
+  "notes": "Phase 3 Buttons + inputs (H-1, M-1): all buttons 16dp radius (primary 24->16, others 12->16, dialog buttons 24->16), inputs 24dp pill -> 12dp rounded rect (48dp height, 16sp text unchanged), WhatsApp button white text -> maroon on same green fill. Cards and dialog window unchanged.",
+  "versionCode": 227,
+  "versionName": "12.63"
 }
