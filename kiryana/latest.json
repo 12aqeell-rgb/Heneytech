@@ -1,1 +1,7 @@
-{"apkFileName": "Saelvo-v12.61.apk", "b64File": "Saelvo-v12.61.apk.b64", "notes": "Design Phase 1 (tokens): all hardcoded colors folded into Design.java tokens (302 replacements, 38 new tokens), stale teal comments fixed. No visible change.", "versionCode": 225, "versionName": "12.61"}
+{
+  "apkFileName": "Saelvo-v12.62.apk",
+  "b64File": "Saelvo-v12.62.apk.b64",
+  "notes": "Phase 2 Readability (Option A): orange text -> #B45309, red text -> #B91C1C, amber text -> #92400E, hints -> #7A5C50, white-on-red/orange small text -> dark text on pale fill, keypad arrow maroon-on-orange. Fills, shades and layout unchanged.",
+  "versionCode": 226,
+  "versionName": "12.62"
+}
