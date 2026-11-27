@@ -1,1 +1,1 @@
-{"apkFileName": "Saelvo-v12.56.apk", "b64File": "Saelvo-v12.56.apk.b64", "notes": "v12.54 maroon theme restored 0-100% (Orange Grove, GOLD E88C2B, FOREST 4E0401, CREAM FEFBF3); aurora + frost back to orange/maroon; blur unchanged.", "versionCode": 220, "versionName": "12.56"}
+{"apkFileName": "Saelvo-v12.57.apk", "b64File": "Saelvo-v12.57.apk.b64", "notes": "Batch 7 (S6-S10): search-filtered header totals, invoice negative total clamp, Excel formula-guard whitespace fix, fill-grow listener detach, timeToMin range validation.", "versionCode": 221, "versionName": "12.57"}
