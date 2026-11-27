@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.65.apk",
-  "b64File": "Saelvo-v12.65.apk.b64",
-  "notes": "Phase 5 FAB + navigation + icons (H-3, M-2): one FAB 56dp 16dp squircle, orange fill, maroon ic_add icon in MainActivity and UdharModeScreen (oval text-'+' FAB deleted); one nav bar — 24dp icons, 12sp labels, same token-colored 58x34dp sliding pill on both bars; one icon scale 20/24/44dp only (15 off-scale sites fixed: 22->24, 18->20, 21->20, 26->24, 52->44). Keypad arrow and detail menu glyph unchanged. Buttons, cards, inputs, dialog window unchanged.",
-  "versionCode": 229,
-  "versionName": "12.65"
+  "apkFileName": "Saelvo-v12.66.apk",
+  "b64File": "Saelvo-v12.66.apk.b64",
+  "notes": "Phase 6 Typography (H-4, M-4, L-2): Inter font bundled (Regular/Medium/Bold, OFL, +500KB APK); 7-step type scale 32/20/18/16/14/12/Overline 12+0.08 tracking — 139 setTextSize sites mapped, zero fractional sizes remain; Medium replaces most bold (Bold only for Display numerals + key figures); hero 30->32sp, Entries title 22->20sp, Udhar balance 28->32sp. PDF paints untouched. Colors, radii, elevations, FAB/nav, buttons, cards, inputs, dialog window unchanged.",
+  "versionCode": 230,
+  "versionName": "12.66"
 }
