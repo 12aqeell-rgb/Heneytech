@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.66.apk",
-  "b64File": "Saelvo-v12.66.apk.b64",
-  "notes": "Phase 6 Typography (H-4, M-4, L-2): Inter font bundled (Regular/Medium/Bold, OFL, +500KB APK); 7-step type scale 32/20/18/16/14/12/Overline 12+0.08 tracking — 139 setTextSize sites mapped, zero fractional sizes remain; Medium replaces most bold (Bold only for Display numerals + key figures); hero 30->32sp, Entries title 22->20sp, Udhar balance 28->32sp. PDF paints untouched. Colors, radii, elevations, FAB/nav, buttons, cards, inputs, dialog window unchanged.",
-  "versionCode": 230,
-  "versionName": "12.66"
+  "apkFileName": "Saelvo-v12.67.apk",
+  "b64File": "Saelvo-v12.67.apk.b64",
+  "notes": "Phase 7 Dark-mode dialogs (H-5, L-3), Option A: dialogs follow the app theme in dark mode — dark card #1E0B09, field #2E120E, edge #4A2C20, track #3A1A12, cream text, muted #B59A8C, danger fill #3A1E1E / text #F87171 (all named tokens behind DARK ternary, single point styleDialog); dialog window radius 28->24dp; Google button dark fill + white text in dark mode (light mode unchanged), text now Inter Medium. Real bug fixed: 4 dialog-button RED_TEXT overrides would have been 2.34:1 on the dark danger fill — now theme-aware dangerText() (5.48:1). Light-mode dialogs unchanged.",
+  "versionCode": 231,
+  "versionName": "12.67"
 }
