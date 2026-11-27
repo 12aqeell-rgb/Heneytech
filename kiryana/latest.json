@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.63.apk",
-  "b64File": "Saelvo-v12.63.apk.b64",
-  "notes": "Phase 3 Buttons + inputs (H-1, M-1): all buttons 16dp radius (primary 24->16, others 12->16, dialog buttons 24->16), inputs 24dp pill -> 12dp rounded rect (48dp height, 16sp text unchanged), WhatsApp button white text -> maroon on same green fill. Cards and dialog window unchanged.",
-  "versionCode": 227,
-  "versionName": "12.63"
+  "apkFileName": "Saelvo-v12.64.apk",
+  "b64File": "Saelvo-v12.64.apk.b64",
+  "notes": "Phase 4 Cards + elevation (H-2), Option B one build: card system 16dp radius, 2dp elevation (4dp hero), colored outline shadows retired (light neutral shadow), frost tint more translucent for a stronger iOS-style blur (WHITE_TINT 0xE0 -> 0xC6), hand-built cards migrated screen by screen. Pills, chips, buttons, inputs and dialog window unchanged.",
+  "versionCode": 228,
+  "versionName": "12.64"
 }
