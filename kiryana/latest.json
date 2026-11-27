@@ -1,1 +1,1 @@
-{"apkFileName": "Saelvo-v12.58.apk", "b64File": "Saelvo-v12.58.apk.b64", "notes": "Batch 8 (S11-S14 + U1): strict date parsing, per-event ICS skip, holidays cache off UI thread, sheet-date precedence documented, deep-link start-screen guard.", "versionCode": 222, "versionName": "12.58"}
+{"apkFileName": "Saelvo-v12.59.apk", "b64File": "Saelvo-v12.59.apk.b64", "notes": "Batch 9 (U3-U6): PIN row refresh on return, Settings scroll kept on rebuilds, reminder time picker follows 12/24h, hero dot ring visible. Weekly audit 45/45 fixed.", "versionCode": 223, "versionName": "12.59"}
