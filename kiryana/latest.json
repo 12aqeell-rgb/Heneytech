@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.69.apk",
-  "b64File": "Saelvo-v12.69.apk.b64",
-  "notes": "Fix Plan Phase 1 — P0 critical batch (v12.69): P0-03 source under git (first commit v12.68, remote pending a source repo on github.com); P0-04 signing password moved out of the workspace (~/.config, 0600); P0-01 dark-mode frost accent remap — DEVIATION from the queue's literal targets (GOLD_D 3.07, RED_TEXT 3.95, #7A5C50 3.69 on #CEC9C9 all miss 4.5:1, verified by recomputation) so darker same-family tokens were used instead, all passing: FROST_AMBER #78350F 5.54:1, FROST_RED #991B1B 5.07:1, FROST_GREEN #14532D 5.56:1, FROST_DIM #5D4037 5.69:1, TEXT_ON_WHITE 9.56:1; P0-02 23 content descriptions added (FAB, back chevrons, pagers, overflow, sync status); P0-05 targetSdk/compileSdk 34->36 (Android 16: edge-to-edge insets handled, predictive back unchanged). P0-06 updater gating DEFERRED by owner choice — updater stays as the distribution channel. Supplier Settled pill 1.61:1 left for P1-14.",
-  "versionCode": 233,
-  "versionName": "12.69"
+  "apkFileName": "Saelvo-v12.70.apk",
+  "b64File": "Saelvo-v12.70.apk.b64",
+  "notes": "Fix Plan Phase 2 — Security (v12.70): P1-02 tokens encrypted at rest (new SecurePrefs.java: AES-256-GCM via AndroidKeyStore, per-value random IV, lazy per-key migration, no re-sign-in; plan-sanctioned deviation: Keystore AES instead of EncryptedSharedPreferences which needs vendored AndroidX AARs). P1-03 PIN salt APPROVED by owner 23:32 PKT — 16-byte salt + 1000 rounds SHA-256 stored as v2:<salt>:<hash>; hashCode() fallback removed (fail closed); migration: legacy hash verifies once, then user sets a new PIN (never left unlocked on the old hash). P1-22 re-lock on resume after 60s background (justUnlocked guard; Cancel hidden, Back exits). P2-S6 DB excluded from Auto Backup (kiryana.db + journals + kiryana_secure.xml) — a restore now starts with an empty DB; data comes back from JSON/SQLite backup, not Auto Backup. P2-S8 refresh token revoked at Google on sign-out (best-effort POST, local state cleared regardless). P2-S9 FLAG_SECURE app-wide (4 activities — no Recents thumbnails/screenshots). P3-S3a CLOSED AS DOCUMENTED: spreadsheets scope kept — sheet creation needs it and the live token already carries it; trade-off recorded in code. P1-01 HELD — secret NOT touched, rotation still the owner's Google Cloud action.",
+  "versionCode": 234,
+  "versionName": "12.70"
 }
