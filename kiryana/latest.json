@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.67.apk",
-  "b64File": "Saelvo-v12.67.apk.b64",
-  "notes": "Phase 7 Dark-mode dialogs (H-5, L-3), Option A: dialogs follow the app theme in dark mode — dark card #1E0B09, field #2E120E, edge #4A2C20, track #3A1A12, cream text, muted #B59A8C, danger fill #3A1E1E / text #F87171 (all named tokens behind DARK ternary, single point styleDialog); dialog window radius 28->24dp; Google button dark fill + white text in dark mode (light mode unchanged), text now Inter Medium. Real bug fixed: 4 dialog-button RED_TEXT overrides would have been 2.34:1 on the dark danger fill — now theme-aware dangerText() (5.48:1). Light-mode dialogs unchanged.",
-  "versionCode": 231,
-  "versionName": "12.67"
+  "apkFileName": "Saelvo-v12.68.apk",
+  "b64File": "Saelvo-v12.68.apk.b64",
+  "notes": "Design Phase 8 Polish (M-3), LAST phase: light mode simplified to flat cream + white cards — AuroraPageDrawable returns solid CREAM #FEFBF3 in light mode (no washes); Frost gated to dark mode only (plainWhite() helper with same radius + hairline edge in light mode) at all 3 entry points (frostBg, frostBgLazy, frostBgTop) and dialogWindow(); dark cards (hero/balance, darkCard=true) keep the frosted path in both modes, so hero stays maroon and its inner glow goes flat automatically on the flat-cream snapshot. Dark mode byte-identical behaviour (aurora + frost + FrostDrawable intact behind DARK branches). No leftovers from Phases 1-7 found.",
+  "versionCode": 232,
+  "versionName": "12.68"
 }
