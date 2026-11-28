@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.72.apk",
-  "b64File": "Saelvo-v12.72.apk.b64",
-  "notes": "Fix Plan Phase 4 — Performance queries (v12.72): P1-08 Home projection now 1 listRange(90d) query + in-memory lookups + per-day cache keyed on today+dataVersion (was ~212 avg / ~258 worst queries per render; JVM-verified: day-of-week exact over 11,323 days, projectMonthEnd exact double equality over 300 seeded histories). P1-09 5 DB indexes (udhar name/date, supplier_tx name, cashbook date, invoice_items invoice_id) in onCreate + onUpgrade oldV<14 for existing installs; dataVersion counter with 22 write-path bumps. P1-12 tab views cached (tabCache[5] + version check; any DB write bumps dataVersion so tabs rebuild; refreshUi clears unconditionally for non-DB state). P2-F4 Reports: 1 db.all() per render (was 2 full-table scans). P2-F5 Aging Report: 1 batched query + in-memory grouping (was 1+N). P2-C2g Udhar list loads on a background thread with generation guard (stale completions dropped); long-press delete uses COUNT(*) instead of loading all txs. C2g scoped honestly: HomeScreen 2 remaining sync reads stay (4 queries total after P1-08; async rebuild would restructure the tap path for ~ms). P1-01 untouched (PlayConfig zero diff).",
-  "versionCode": 236,
-  "versionName": "12.72"
+  "apkFileName": "Saelvo-v12.73.apk",
+  "b64File": "Saelvo-v12.73.apk.b64",
+  "notes": "Fix Plan Phase 5: debounced + diffed lists, intro shrink, Udhar delta push, Frost allocation reuse, light Aurora without bitmap",
+  "versionCode": 237,
+  "versionName": "12.73"
 }
