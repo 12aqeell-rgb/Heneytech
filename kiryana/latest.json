@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.75.apk",
-  "b64File": "Saelvo-v12.75.apk.b64",
-  "notes": "Fix Plan Phase 6: design consistency (gloss retired, elevations 2/4dp, textDim #7A5C50, contrast sweep, chart labels sp, GOLD_D success tick, Google button 16dp/48dp)",
-  "versionCode": 239,
-  "versionName": "12.75"
+  "apkFileName": "Saelvo-v12.76.apk",
+  "b64File": "Saelvo-v12.76.apk.b64",
+  "notes": "Fix Plan Phase 7: accessibility (selected-tab TalkBack, CashBook dark red, sync dot partner + 48dp, input borders 3:1, 48dp controls, PIN-dot announcements, 48dp dialog rows, dark-dialog GOLD_L)",
+  "versionCode": 240,
+  "versionName": "12.76"
 }
