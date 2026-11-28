@@ -1,8 +1,8 @@
 {
-  "apkFileName": "Saelvo-v12.88.apk",
-  "b64File": "Saelvo-v12.88.apk.b64",
-  "notes": "v12.88 — PIN fail-closed fix (Phase 2 gate): an undecryptable PIN hash no longer silently disables the lock; unreadable state routes to a recovery screen (verified Google reset or warned data wipe). Existing PINs keep working, no re-set needed.",
-  "sha256": "3242acd9fda8b313227e5c199e74e1397b4987c41dfa0a8a9ca76563cd3e7364",
-  "versionCode": 252,
-  "versionName": "12.88"
+  "apkFileName": "Saelvo-v12.89.apk",
+  "b64File": "Saelvo-v12.89.apk.b64",
+  "notes": "v12.89 — Keystore key recovery: PIN set works again (v12.88 regression). A broken/unrecoverable SaelvoSecureKey alias is deleted and a fresh key generated with the same spec; old ciphertexts still read as UNREADABLE and route to the recovery screen. Fail-closed semantics unchanged.",
+  "sha256": "9a4ec96af31b59f61aff81ae2e62efe4d861e4eb2cccb30b46fc4efc11b87427",
+  "versionCode": 253,
+  "versionName": "12.89"
 }
