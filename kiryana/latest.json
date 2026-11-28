@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.73.apk",
-  "b64File": "Saelvo-v12.73.apk.b64",
-  "notes": "Fix Plan Phase 5: debounced + diffed lists, intro shrink, Udhar delta push, Frost allocation reuse, light Aurora without bitmap",
-  "versionCode": 237,
-  "versionName": "12.73"
+  "apkFileName": "Saelvo-v12.74.apk",
+  "b64File": "Saelvo-v12.74.apk.b64",
+  "notes": "Intro colors: Cream background + Maroon/Orange recolored intro video and poster",
+  "versionCode": 238,
+  "versionName": "12.74"
 }
