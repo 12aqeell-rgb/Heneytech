@@ -1,8 +1,8 @@
 {
-  "apkFileName": "Saelvo-v12.89.apk",
-  "b64File": "Saelvo-v12.89.apk.b64",
-  "notes": "v12.89 — Keystore key recovery: PIN set works again (v12.88 regression). A broken/unrecoverable SaelvoSecureKey alias is deleted and a fresh key generated with the same spec; old ciphertexts still read as UNREADABLE and route to the recovery screen. Fail-closed semantics unchanged.",
-  "sha256": "9a4ec96af31b59f61aff81ae2e62efe4d861e4eb2cccb30b46fc4efc11b87427",
-  "versionCode": 253,
-  "versionName": "12.89"
+  "apkFileName": "Saelvo-v12.90.apk",
+  "b64File": "Saelvo-v12.90.apk.b64",
+  "notes": "v12.90 — DIAGNOSTIC build: PIN set still fails on the user's phone after the v12.89 alias recovery, so this build shows the exact Keystore failure on screen. SecurePrefs records the last failure (exception class + message only) and runSelfTest() reports each Keystore step (load, alias present, getKey, encrypt/decrypt round-trip with a throwaway probe key, last failure); on PIN-set failure a dialog shows the report with Copy/OK. No behavior change otherwise; diagnostic only.",
+  "sha256": "62acafa6d3b1bb0192c0401bf8dc53a3e1f34ce29577cbd14347945c2c80ccb7",
+  "versionCode": 254,
+  "versionName": "12.90"
 }
