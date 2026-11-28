@@ -1,8 +1,8 @@
 {
-  "apkFileName": "Saelvo-v12.91.apk",
-  "b64File": "Saelvo-v12.91.apk.b64",
-  "notes": "v12.91 — REAL PIN-set fix (v12.90 diagnostic found the cause): encrypt() no longer supplies its own IV — the Keystore generates it (cipher.getIV()). The old caller IV was rejected on this phone (InvalidAlgorithmParameterException), so SecurePrefs.put() had failed since v12.70. Diagnostic UI removed; fail-closed semantics unchanged.",
-  "sha256": "026b1510b76726a127f47a59777c51222a10acf2673cbafd1be7d7f9dd42729b",
-  "versionCode": 255,
-  "versionName": "12.91"
+  "apkFileName": "Saelvo-v12.92.apk",
+  "b64File": "Saelvo-v12.92.apk.b64",
+  "notes": "v12.92 — Supabase Phase 2: native Google sign-in (Credential Manager → GoTrue ID token) alongside the old flow; new 'Cloud account (new)' card on Sync screen; profiles+shops created on first sign-in; sessions fail-closed in Keystore; old Google/Sheets flow untouched; no data uploaded yet.",
+  "sha256": "efa3f5f6cfa4b3c37c1dedfd54276254b13fd3239fa6a310e27fedb68c3b8adc",
+  "versionCode": 256,
+  "versionName": "12.92"
 }
