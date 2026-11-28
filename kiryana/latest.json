@@ -1,8 +1,8 @@
 {
-  "apkFileName": "Saelvo-v12.92.apk",
-  "b64File": "Saelvo-v12.92.apk.b64",
-  "notes": "v12.92 — Supabase Phase 2: native Google sign-in (Credential Manager → GoTrue ID token) alongside the old flow; new 'Cloud account (new)' card on Sync screen; profiles+shops created on first sign-in; sessions fail-closed in Keystore; old Google/Sheets flow untouched; no data uploaded yet.",
-  "sha256": "efa3f5f6cfa4b3c37c1dedfd54276254b13fd3239fa6a310e27fedb68c3b8adc",
-  "versionCode": 256,
-  "versionName": "12.92"
+  "apkFileName": "Saelvo-v12.93.apk",
+  "b64File": "Saelvo-v12.93.apk.b64",
+  "notes": "v12.93 — Supabase Phase 3: shadow sync engine (op-log, version-checked push/pull, conflict UI, 7-day totals comparison). UI still reads local SQLite only; Sheets sync untouched.",
+  "sha256": "191efa39dd364406e069386477f42a30b64847919ef26bd84d4ab766bdbe2004",
+  "versionCode": 257,
+  "versionName": "12.93"
 }
