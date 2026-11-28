@@ -1,1 +1,8 @@
-{"apkFileName":"Saelvo-v12.86.apk","b64File":"Saelvo-v12.86.apk.b64","notes":"Owner order: THIS MONTH OVERVIEW card fixed. (1) SMART badge: was squeezed to ~33dp and wrapped as SM/AR/T — the old single line needed 317.4dp vs 296dp card inner width. Reflowed to two lines: line 1 = 'Projected month-end' + SMART pill (one line, setSingleLine, 54.8dp), line 2 = 'PKR 1,023,490'. No overlap. (2) Yesterday 'down 4% vs 26 Nov' was clipped at the card edge (94.2dp vs 82.7dp column) — comparison lines now wrap to max 2 lines with non-breaking spaces, so Yesterday reads 'down 4% vs' / '26 Nov'; Highest/Lowest still fit on one line. All figures/labels/behaviour unchanged. APK 1,935,941 bytes. RELEASE-SIGNED: installs over v12.77-v12.85 normally; debug installs (v12.76 and older) must uninstall + reinstall first, then restore from JSON backup or re-sync.","sha256":"d3f8a03107aeb30cd60caf47ec3aa1b5dda7a76a45630512922590f25afd715d","versionCode":250,"versionName":"12.86"}
+{
+  "apkFileName": "Saelvo-v12.87.apk",
+  "b64File": "Saelvo-v12.87.apk.b64",
+  "notes": "Overview card back on one line: projected row (label + SMART pill + PKR 1,023,490) single line; Yesterday comparison '↓ 4% vs 26 Nov' single line (owner order).",
+  "sha256": "4d9f89736ba2def3e8802227c06c89e9373d85f6deb0057bf493645318b80fea",
+  "versionCode": 251,
+  "versionName": "12.87"
+}
