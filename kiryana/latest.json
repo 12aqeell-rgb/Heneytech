@@ -1,8 +1,1 @@
-{
-  "apkFileName": "Saelvo-v12.77.apk",
-  "b64File": "Saelvo-v12.77.apk.b64",
-  "notes": "Fix Plan Phase 8: Play readiness (AAB + release signing, migration note, dead permission removed, SHA-256 check). RELEASE-SIGNED: existing debug installs must uninstall + reinstall, then restore from JSON backup or re-sync.",
-  "sha256": "76cabc82b0801a73c07ca70bbcd395330713451e2eebfff95c3e1d0af38b8ed3",
-  "versionCode": 241,
-  "versionName": "12.77"
-}
+{"apkFileName":"Saelvo-v12.78.apk","b64File":"Saelvo-v12.78.apk.b64","notes":"Fix Plan Phase 9: Code split & cleanup (UdharScreen split into UdharDetailView/UdharStatementPdf/UdharCollectFlow, single version source, dead helpers removed, date formats via Util, PDF palette teal to Orange Grove). RELEASE-SIGNED: installs over v12.77 normally; debug installs (v12.76 and older) must uninstall + reinstall first, then restore from JSON backup or re-sync.","sha256":"c2c753bbf671fe69634957226e55248679efcf63fcbb83fff9967ac9637f308d","versionCode":242,"versionName":"12.78"}
