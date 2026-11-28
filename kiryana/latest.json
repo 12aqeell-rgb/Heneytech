@@ -1,8 +1,8 @@
 {
-  "apkFileName": "Saelvo-v12.90.apk",
-  "b64File": "Saelvo-v12.90.apk.b64",
-  "notes": "v12.90 — DIAGNOSTIC build: PIN set still fails on the user's phone after the v12.89 alias recovery, so this build shows the exact Keystore failure on screen. SecurePrefs records the last failure (exception class + message only) and runSelfTest() reports each Keystore step (load, alias present, getKey, encrypt/decrypt round-trip with a throwaway probe key, last failure); on PIN-set failure a dialog shows the report with Copy/OK. No behavior change otherwise; diagnostic only.",
-  "sha256": "62acafa6d3b1bb0192c0401bf8dc53a3e1f34ce29577cbd14347945c2c80ccb7",
-  "versionCode": 254,
-  "versionName": "12.90"
+  "apkFileName": "Saelvo-v12.91.apk",
+  "b64File": "Saelvo-v12.91.apk.b64",
+  "notes": "v12.91 — REAL PIN-set fix (v12.90 diagnostic found the cause): encrypt() no longer supplies its own IV — the Keystore generates it (cipher.getIV()). The old caller IV was rejected on this phone (InvalidAlgorithmParameterException), so SecurePrefs.put() had failed since v12.70. Diagnostic UI removed; fail-closed semantics unchanged.",
+  "sha256": "026b1510b76726a127f47a59777c51222a10acf2673cbafd1be7d7f9dd42729b",
+  "versionCode": 255,
+  "versionName": "12.91"
 }
