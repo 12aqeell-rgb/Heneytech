@@ -1,7 +1,7 @@
 {
-  "apkFileName": "Saelvo-v12.74.apk",
-  "b64File": "Saelvo-v12.74.apk.b64",
-  "notes": "Intro colors: Cream background + Maroon/Orange recolored intro video and poster",
-  "versionCode": 238,
-  "versionName": "12.74"
+  "apkFileName": "Saelvo-v12.75.apk",
+  "b64File": "Saelvo-v12.75.apk.b64",
+  "notes": "Fix Plan Phase 6: design consistency (gloss retired, elevations 2/4dp, textDim #7A5C50, contrast sweep, chart labels sp, GOLD_D success tick, Google button 16dp/48dp)",
+  "versionCode": 239,
+  "versionName": "12.75"
 }
